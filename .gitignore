@@ -1,0 +1,22 @@
+# Secrets et variables d'environnement
+.env
+*.env
+!.env.example
+deploy/secret.yaml
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Node / front
+node_modules/
+dist/
+
+# Éditeurs et système
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
